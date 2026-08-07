@@ -5,7 +5,7 @@ namespace nglasl\extensible;
 use SilverStripe\Dev\BuildTask;
 use SilverStripe\ORM\Queries\SQLDelete;
 use SilverStripe\ORM\Queries\SQLUpdate;
-use SilverStripe\Polyfill\PolyOutput;
+use SilverStripe\PolyExecution\PolyOutput;
 use Symfony\Component\Console\Input\InputInterface;
 
 /**
