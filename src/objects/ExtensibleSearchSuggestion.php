@@ -2,6 +2,7 @@
 
 namespace nglasl\extensible;
 
+use SilverStripe\Core\Validation\ValidationResult;
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\FieldGroup;
 use SilverStripe\ORM\DataObject;
@@ -128,7 +129,7 @@ class ExtensibleSearchSuggestion extends DataObject implements PermissionProvide
 	 *	Confirm that the current search suggestion is valid.
 	 */
 
-	public function validate() {
+	public function validate(): ValidationResult {
 
 		$result = parent::validate();
 
