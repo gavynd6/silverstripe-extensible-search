@@ -22,7 +22,7 @@ class ExtensibleSearchArchiveTask extends BuildTask
 
     protected string $title = 'Extensible Search Archiving';
 
-    protected string $description = 'This creates an archived collection of analytics for each search page.';
+    protected static string $description = 'This creates an archived collection of analytics for each search page.';
 
     /**
      * The number of analytics to archive for each search page.
